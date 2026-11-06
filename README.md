@@ -4,11 +4,11 @@ A collection of open-source programs to analyse and visualise GNSS antenna
 calibration values, and to quantify what differences between two calibrations do
 to estimated geodetic parameters.
 
-Developed at the **Institut für Erdmessung (IfE), Leibniz University Hannover**.
+Developed at the **Institut für Erdmessung (IfE), Leibniz Universität Hannover**.
 
-> **The launcher package is archived on Zenodo and citable now.** The individual
-> programs are released in their own repositories, listed below, each with its
-> Windows package and its source code. Their Zenodo records follow.
+> **Every program is archived on Zenodo and citable.** The individual programs
+> are released in their own repositories, listed below, each with its Windows
+> package, its source code and its own Zenodo record.
 >
 > **PCC-Suite on Zenodo:** [10.5281/zenodo.22722195](https://doi.org/10.5281/zenodo.22722195)
 > (this DOI always resolves to the newest version)
@@ -66,14 +66,19 @@ real PPP does and this tool deliberately does not.
 
 Each program has its own repository, so you can take only the one you need.
 
-| Program | Repository |
-|---|---|
-| PCC-Explorer | [J-kroeger/pcc-explorer](https://github.com/J-kroeger/pcc-explorer) |
-| PCC-Viewer | [pcc-viewer](https://github.com/J-kroeger/pcc-viewer) |
-| ATX-Converter | [atx-converter](https://github.com/J-kroeger/atx-converter) |
-| ATX-Scanner | [atx-scanner](https://github.com/J-kroeger/atx-scanner) |
-| RINEX-Masker | [rinex-masker](https://github.com/J-kroeger/rinex-masker) |
-| RINEX-Adapter | [rinex-adapter](https://github.com/J-kroeger/rinex-adapter) |
+| Program | Current version | Repository |
+|---|---|---|
+| PCC-Explorer | 1.2.0 | [J-kroeger/pcc-explorer](https://github.com/J-kroeger/pcc-explorer) |
+| PCC-Viewer | 1.1.1 | [pcc-viewer](https://github.com/J-kroeger/pcc-viewer) |
+| ATX-Converter | 1.0.1 | [atx-converter](https://github.com/J-kroeger/atx-converter) |
+| ATX-Scanner | 1.1.1 | [atx-scanner](https://github.com/J-kroeger/atx-scanner) |
+| RINEX-Masker | 1.1 | [rinex-masker](https://github.com/J-kroeger/rinex-masker) |
+| RINEX-Adapter | 1.0.1 | [rinex-adapter](https://github.com/J-kroeger/rinex-adapter) |
+| PCC-Suite Launcher | 1.0.1 | this repository ([Releases](https://github.com/J-kroeger/pcc-suite/releases/latest)) |
+
+PCC-Explorer and RINEX-Masker also run on computers without internet access:
+point them to a local folder of daily orbit files (SP3 or RINEX navigation
+files) and they contact no server.
 
 Archived releases and DOIs are gathered in the Zenodo community
 [Open Source Software Packages for GNSS Data Processing](https://zenodo.org/communities/gnss-open-source-solutions).
@@ -98,11 +103,13 @@ Release announcements, and warnings when an external data source moves, go to
 the institute software mailing list:
 
 ```
-SOFTWARE-IFE@LISTSERV.UNI-HANNOVER.DE
+ife-software@lists.uni-hannover.de
 ```
 
-Each program offers to subscribe you on first start. You can decline, and you
-can ask not to be reminded again.
+Subscribe at <https://lists.uni-hannover.de/sympa/subscribe/ife-software>, or send
+the line `subscribe ife-software` and, on the next line, `QUIT` to
+<sympa@lists.uni-hannover.de>. Each program offers to subscribe you on first
+start. You can decline, and you can ask not to be reminded again.
 
 ## Contact
 
